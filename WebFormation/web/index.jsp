@@ -12,7 +12,7 @@
         <title>JSP Page</title>
     </head>
     <body> <br><br><br><br><br><br><br><br>
-<form action="TraiteLogin" method="post" name="Form1">
+<form action="TraiteLogin" method="POST" name="Form1">
   <table width="259" border="0" align="center">
     <tr>
         <td height="27" colspan="2" align="center" valign="middle">AUTHENTIFICATION</td><br><br><br>
@@ -27,14 +27,10 @@
       <td><input type="password" name="passe" id="passe" /></td>
     </tr>
      
-		<tr>
-			<td><input type="hidden" name="bouton" value="add"></td>
-			<td> <input type="submit"  name="button" id="button" value="Se connecter" /></td>
-		</tr>
-		<tr>
-			<td>
-</td>
-		</tr>
+    <tr>
+        <td> <input type="submit"  name="button" id="button" value="Se connecter" /></td>
+    </tr>
+		
 </table>
 </form>
 </body>
